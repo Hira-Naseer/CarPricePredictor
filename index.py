@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import pandas as pd
 import pickle as pkl
-# import sklearn
+
 
 app = Flask(__name__)
 car = pd.read_csv("cleaned_car.csv")
