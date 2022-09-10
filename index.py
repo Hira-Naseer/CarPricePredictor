@@ -39,5 +39,3 @@ def predict(compnany,car_models,year,fule_type,kms_driven):
     y = model.predict(df)
     return y[0]
 
-if __name__ == "__main__":
-    app.run(debug=True)
