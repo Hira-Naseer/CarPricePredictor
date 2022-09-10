@@ -1,4 +1,4 @@
 pandas
 Flask
 sklearn
-pickle
+pickle-mixin
